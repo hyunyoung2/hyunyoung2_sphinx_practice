@@ -1,5 +1,12 @@
 # Hyunyoung2's sphinx practice for konlp
 
+Above all, let's make virtual environment 
+
+> sudo apt install -y python3-venv  
+> pyvenv env  
+> source env/bin/activate
+
+After it, follow things below.
 
 First, in order to run sphinx, install them below:
 
