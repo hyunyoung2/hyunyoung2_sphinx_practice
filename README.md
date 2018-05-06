@@ -36,15 +36,9 @@ Then check
 The following is screencast of how to utilize sphinx : 
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/oJsUvBQyHBs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
-
-
-
-
+[![](https://raw.githubusercontent.com/hyunyoung2/hyunyoung2_sphinx_practice/master/imgs/sphinx_image.png)](https://www.youtube.com/embed/oJsUvBQyHBs)
 
 
 # Reference 
 
- - [Readthedocs's getting started](https://docs.readthedocs.io/en/latest/getting_started.html)
- - 
+ - [Readthedocs's getting started](https://docs.readthedocs.io/en/latest/getting_started.html) 
