@@ -10,7 +10,14 @@ Welcome to practice of sphinx's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-
+   practice news
+   install
+   data
+   contribute
+   FAQ <https://github.com/hyunyoung2/hyunyoung2_sphinx_practice/wiki>
+   Wiki <https://github.com/hyunyoung2/hyunyoung2_sphinx_practice/wiki>
+   API <>
+   HOWTO <https://github.com/hyunyoung2/hyunyoung2_sphinx_practice/wiki>
 
 Indices and tables
 ==================
