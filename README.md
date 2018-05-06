@@ -1,5 +1,7 @@
 # Hyunyoung2's sphinx practice for konlp
 
+[![Documentation Status](https://readthedocs.org/projects/hyunyoung2s-sphinx-practice/badge/?version=latest)](http://hyunyoung2s-sphinx-practice.readthedocs.io/en/latest/?badge=latest)
+
 Above all, let's make virtual environment 
 
 > sudo apt install -y python3-venv  
