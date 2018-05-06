@@ -3,6 +3,9 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+For test
+
+
 Welcome to test's documentation!
 ================================
 
@@ -16,6 +19,7 @@ Welcome to test's documentation!
    contribute
    FAQ <https://github.com/hyunyoung2/hyunyoung2_sphinx_practice/wiki>
    Wiki <https://github.com/hyunyoung2/hyunyoung2_sphinx_practice/wiki>
+   test <https://github.com/hyunyoung2/hyunyoung2_sphinx_practice/wiki>
    API <>
    HOWTO <https://github.com/hyunyoung2/hyunyoung2_sphinx_practice/wiki>
 
