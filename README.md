@@ -64,3 +64,5 @@ The last thing you have to do is add an empty file called **\.nojekyll** in your
 
  - [Readthedocs's getting started](https://docs.readthedocs.io/en/latest/getting_started.html) 
  - [sphindoc-test v0.1 documentation](https://daler.github.io/sphinxdoc-test/includeme.html)
+ - [Sphinx-doc quickstart](http://www.sphinx-doc.org/en/master/usage/quickstart.html)
+ - [How to use google doc style with sphinx extension](http://www.sphinx-doc.org/en/master/ext/napoleon.html)
