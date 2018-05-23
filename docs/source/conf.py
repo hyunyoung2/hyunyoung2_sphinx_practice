@@ -149,6 +149,8 @@ latex_elements = {
     # Additional stuff for the LaTeX preamble.
     #
     # 'preamble': '',
+    # For Korean Language
+    'preamble': '\\usepackage{kotex}',
 
     # Latex figure (float) alignment
     #
