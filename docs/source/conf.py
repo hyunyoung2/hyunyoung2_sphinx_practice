@@ -16,6 +16,35 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
+import os
+import sys
+
+# [read the docs](read-the-docs.readthedocs.org/en/latest/faq.html)
+from unittest.mock import MagicMock
+
+class Mock(MagicMock):
+    @classmethod
+    def __getattr__(cls, name):
+        return MagicMock()
+
+MOCK_MODULES = ['jpype', 'pytest']
+sys.modules.update((mod_name, Mock()) for mod_name in MOCK_MODULES)
+
+# build docs using konltk's konlp from the upper dir, not the installed version
+# for index and module on readthedocs
+sys.path.insert(0, os.path.abspath('..'))
+
+# For versioning of Konlp
+# Version is read fron VERSION under konlp directory.
+try:
+    # If a VERSION files exists, use it!
+    VERSION_FILE = os.path.join(os.path.dirname(__file__), "../konlp/VERSION")
+    with open(VERSION_FILE, "r") as vfh:
+        __version__ = vfh.read().strip()
+except NameError:
+    __version__ = "unknown"
+except IOError as ex:
+    __version__ = "unknow (%s)" % ex
 
 # -- Project information -----------------------------------------------------
 
@@ -131,7 +160,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     (master_doc, 'practiceofsphinx.tex', 'practice of sphinx Documentation',
-     'hyunyoung2', 'manual'),
+     'Hyunyoung Lee', 'manual'),
 ]
 
 
